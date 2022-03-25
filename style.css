@@ -1,0 +1,89 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+.background{
+    background-image: linear-gradient(20deg,#00BFA6, blueviolet);
+    background-attachment: fixed;
+	width: 100%;
+	height: 100vh;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+  
+
+}
+
+.text{
+	color: white;
+	margin-top: 30%;
+}
+
+.para{
+color: white;
+margin-left: 8px;
+}
+
+.shark .btn{
+	color: #00BFA6;
+	background-color: white;
+}
+
+.shark .btn:hover{
+	color: white;
+	background-color: #00BFA6;
+}
+
+.image{
+	width: 90%;
+	height: 50vh;
+	margin-top: 20%;
+	margin-left: 10%;
+}
+
+.logo{
+	max-width: 100%;
+	height: 15vh;
+}
+
+.nav-link{
+	color: white;
+
+	transition: 0.5s;
+}
+
+.nav-link:hover{
+	 color: white;
+}
+.nav-item:hover{
+
+ background-color: #00BFA6;
+ 
+}
+
+.collapse-box i {
+  	opacity: 0;
+  }
+
+@media screen and (max-width: 755px) {
+  
+
+.text{
+ margin: 0;
+ padding-top: 20%;
+}
+
+.background{
+	height: 105vh;
+}
+
+.image{
+	width: 90%;
+	height: 40vh;
+}
+}
+
+@media screen and (max-width: 988px){
+	.collapse-box i{
+  	opacity: 1;
+  }
+}
